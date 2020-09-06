@@ -1,0 +1,12 @@
+{
+  "name": "http_aula_01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "node bin/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
