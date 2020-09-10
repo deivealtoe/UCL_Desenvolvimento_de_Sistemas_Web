@@ -1,0 +1,19 @@
+{
+  "name": "express_01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "express_01": "server.js"
+  },
+  "scripts": {
+    "serve": "node ./bin/server.js",
+    "start": "node ./bin/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
