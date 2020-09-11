@@ -6,7 +6,7 @@ const path = require(`path`);
    https://nodejs.org/en/knowledge/HTTP/servers/how-to-create-a-HTTPS-server/ */
 const options = {
     /* path.resolve() - começa do ponto onde o "node *.js" é executado
-       por exemplo: node /bin/server.js
+       ex: node /bin/server.js
        a outra opção seria passar o caminho completo */
     key: fs.readFileSync(path.resolve(`https/key.pem`)),
     cert: fs.readFileSync(path.resolve(`https/cert.pem`))
